@@ -36,11 +36,12 @@ for fn in file_names:
     outfn = fn.replace('.pdb', '_out.txt')
     logfn = fn.replace('.pdb', '_log.txt')
     f = open(conffn, 'w')
-    f.write('receptor = ' + qtfn + '\nligand = NDM_opt2.pdbqt\ncenter_x = '+centerx+'\ncenter_y = '+centery+'\ncenter_z = ' +centerz+ '\nsize_x = 126\nsize_y = 126\nsize_z = 126\nexhaustiveness = 16\nout = '+outfn+'\nnum_modes = 5\nlog = '+logfn)    
+    f.write('receptor = ' + qtfn + '\nligand = runfiles/NDM_opt2.pdbqt\ncenter_x = '+centerx+'\ncenter_y = '+centery+'\ncenter_z = ' +centerz+ '\nsize_x = 126\nsize_y = 126\nsize_z = 126\nexhaustiveness = 8\nout = '+outfn+'\nnum_modes = 5\nlog = '+logfn)    
     f.close()
     #save prepped molecule and close
-    run(session, 'save /Users/lcatd/OneDrive/Desktop/IVS/prep_'+fn)
     run(session, 'save /home/ld/Desktop/IVS/prep_'+fn)
     run(session, 'close #1')
+
+
 
 
