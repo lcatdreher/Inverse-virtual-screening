@@ -1,13 +1,13 @@
 # Inverse-virtual-screening
 Automated docking process
 
-Required to run:
-Python versions 2 and 3
-AutoDock Vina (downloadable here: https://vina.scripps.edu/downloads/)
-ADFR suite (downloadable here: https://ccsb.scripps.edu/adfr/downloads/)
-ChimeraX 1.8 (downloadable here: https://www.cgl.ucsf.edu/chimerax/download.html)
+Required to run:\n
+Python versions 2 and 3\n
+AutoDock Vina (downloadable here: https://vina.scripps.edu/downloads/)\n
+ADFR suite (downloadable here: https://ccsb.scripps.edu/adfr/downloads/)\n
+ChimeraX 1.8 (downloadable here: https://www.cgl.ucsf.edu/chimerax/download.html)\n
 
-Before running:
+Before running:\n
 Place all protein files, python files, Vina.exe, an ADFR suite in a single directory (I will fix this so it can be more organized but for now thisll do)
 
 To run:
