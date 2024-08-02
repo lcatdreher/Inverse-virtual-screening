@@ -11,7 +11,7 @@ Required to run:
      
 
 Before running:
-Place all protein files, python files, Vina.exe, an ADFR suite in a single directory (I will fix this so it can be more organized but for now thisll do)
+Place all protein files in a single directory, and place all python files, Vina.exe, an ADFR suite in a subfolder of this directory (runfiles)
 
 To run:
 1. Open 'chimera.py' in ChimeraX
@@ -20,5 +20,7 @@ To run:
 2. In the terminal, run 'python2.7 adt.py'
      This will further prep each protein using the prepare_receptor4 script from autdock tools and generate a new pbqt file, then run vina.
 
-4. In the terminal, run 'getresults.py'
+4. In the terminal, run 'python3 getresults.py'
      This will format the docking results from the vina log files in a .csv spreadsheet.
+
+5. If desired, run 'python3 deletepdbs.py' to delete the original pdb files
