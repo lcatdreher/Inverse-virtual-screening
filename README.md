@@ -2,10 +2,13 @@
 Automated docking process
 
 Required to run:
-     Python versions 2 and 3
-     AutoDock Vina (downloadable here: https://vina.scripps.edu/downloads/)
-     ADFR suite (downloadable here: https://ccsb.scripps.edu/adfr/downloads/)
-     ChimeraX 1.8 (downloadable here: https://www.cgl.ucsf.edu/chimerax/download.html)
+1. Python versions 2 and 3
+2. AutoDock Vina (downloadable here: https://vina.scripps.edu/downloads/)
+3. ADFR suite (downloadable here: https://ccsb.scripps.edu/adfr/downloads/)
+4. ChimeraX 1.8 (downloadable here: https://www.cgl.ucsf.edu/chimerax/download.html)
+
+     
+     
 
 Before running:
 Place all protein files, python files, Vina.exe, an ADFR suite in a single directory (I will fix this so it can be more organized but for now thisll do)
