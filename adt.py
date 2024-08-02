@@ -30,3 +30,4 @@ for fn in file_names:
     print "prepped. running vina."
 
     subprocess.call(dock, shell = True)
+
